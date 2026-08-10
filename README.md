@@ -1,14 +1,13 @@
 # reptile
-一些爬虫项目，全部是用beautifulsoup来进行，没有使用driver，这样比较简单，注意使用时要换成自己的头文件
 
-头文件在这里获取：https://curlconverter.com/
+A collection of web scraping projects, all built with BeautifulSoup. No browser driver is used, which keeps things simple. Note: remember to replace the headers with your own when using these scripts.
 
-A24文件夹可以爬取A24公司的全部电影以及电视剧的名字
+Get the headers here: https://curlconverter.com/
 
-b站文件夹里包括了弹幕、评论、搜索结果、视频内的推荐的爬取方式
+The A24 folder can scrape the names of all movies and TV shows from A24.
 
-爬取新闻的代码是兼容性很高的，因为大多数新闻网站的结构是很相似的，只需要做少量的适配性调整
+The bilibili folder includes scrapers for danmaku (bullet comments), comments, search results, and in-video recommendations.
 
-校园工作文件夹里是为了解决华南理工大学的一些网站使用不便的问题而设计的爬虫代码，目前尝试解决的问题包括教学在线中的PPT及其他材料下载不便和成绩无法下载表格
+The news scraping code is highly compatible: since most news websites share a very similar structure, only a small amount of adaptation is needed.
 
-
+The campus-work folder contains scrapers designed to solve usability problems with certain South China University of Technology (SCUT) websites. Problems currently addressed include the inconvenience of downloading PPTs and other materials from the online teaching platform, and the inability to download grades as spreadsheets.
